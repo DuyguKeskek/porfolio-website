@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
 
 body {
 	background-color: #2F2E33;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 17px;
 }
 
@@ -156,7 +156,7 @@ section {
   width: 250px;
   height: 250px;
   padding: 0;
-	margin: 0 20px;
+	margin: 0 25px;
 }
 
 .galleryItem img {
@@ -226,6 +226,53 @@ section {
 /*Skills*/
 #skills {
 	background-color: white;
+}
+
+#skills h1 {
+	color: #009688;
+	font-weight: bold;
+}
+
+.skillbar {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+  background: #FF4447;
+  content: "";
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.skillbar-bar {
+  height: 10px;
+  width: 0px;
+  background: #FF4447;
+  transition-property: width, background-color;
+}
+
+.skillbar-title {
+  color: #2F2E33;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-bottom: 1%;
+}
+
+.skill-bar-percent {
+  float: right;
+  display: inline-block;
+  color: #2F2E33;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 1%;
 }
 
 /*Star Animation*/
