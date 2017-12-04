@@ -6,8 +6,9 @@ body {
 	font-size: 17px;
 }
 
-a {
+a, a:hover {
 	color: white;
+	text-decoration: none;
 }
 
 h6 {
@@ -98,7 +99,7 @@ section {
 	background-color: #009688;
 }
 
-#portfolio h1 {
+#portfolio, #contact h1 {
 	color: white;
 }
 
@@ -156,6 +157,26 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 1%;
+}
+
+/*Contact*/
+
+#contact {
+	color: white;
+	padding-bottom: 0;
+}
+
+#contact .fa {
+	color: #009688;
+}
+
+#contact .footer-social a {
+	padding: 5%;
+	color: #009688;
+}
+
+.fa-heart {
+	color: #FF4447 !important;
 }
 
 /*Star Animation*/
